@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[NikV]]></title>
+  <link href="http://nikvdp.github.com/atom.xml" rel="self"/>
+  <link href="http://nikvdp.github.com/"/>
+  <updated>2013-06-09T19:03:15+08:00</updated>
+  <id>http://nikvdp.github.com/</id>
+  <author>
+    <name><![CDATA[Nik van der Ploeg]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[syntax]]></title>
+    <link href="http://nikvdp.github.com/blog/2013/06/09/syntax/"/>
+    <updated>2013-06-09T18:56:00+08:00</updated>
+    <id>http://nikvdp.github.com/blog/2013/06/09/syntax</id>
+    <content type="html"><![CDATA[<p>Theoretically syntax highlighting in this is magical:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">print</span> <span class="s">&quot;Hello there&quot;</span>
+</span><span class='line'><span class="k">if</span> <span class="n">a</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">b</span><span class="p">:</span>
+</span><span class='line'>    <span class="k">print</span> <span class="s">&quot;a isn&#39;t it&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Weird program</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s">&quot;If this is as smart as it says&quot;</span><span class="p">);</span>
+</span><span class='line'><span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s">&quot;It should be able to figure out this is javascript&quot;</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">console</span><span class="o">.</span><span class="n">log</span> <span class="s">&quot;coffee&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">if</span> <span class="p">[[</span> <span class="err">$</span><span class="n">a</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">]];</span> <span class="n">then</span>
+</span><span class='line'>    <span class="n">echo</span> <span class="err">$</span><span class="n">a</span>
+</span><span class='line'><span class="n">fi</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Migrating to octopress and Jekyll]]></title>
+    <link href="http://nikvdp.github.com/blog/2013/06/09/migrating-to-octopress-and-jekyll/"/>
+    <updated>2013-06-09T18:43:00+08:00</updated>
+    <id>http://nikvdp.github.com/blog/2013/06/09/migrating-to-octopress-and-jekyll</id>
+    <content type="html"><![CDATA[<p>Wordpress has a lot of good points. It&rsquo;s plugin system is flexible and powerful, and this has made it extendable to the point where I can tolerate using it. For example, I can write my posts in markdown and have them automatically end up in HTML.</p>
+
+<p>Unfortunately, to support all this cool stuff wordpress has become bloated. I want to be able to write a post and toss it online in seconds, without thinking about it. Wordpress loadtimes kill, 1 or more seconds for a pageload, and adding a new post requires 3 or 4 clicks, so a simple post ends up taking > 30 seconds to get online. Plus, there&rsquo;s no offline support, and while plugins make markdown usable it&rsquo;s still a bit ugly.</p>
+
+<p>Not acceptable.</p>
+
+<p>So, let&rsquo;s try Jekyll. Setting it up was a lot more difficult than I had originally thought. But it is working.</p>
+]]></content>
+  </entry>
+  
+</feed>
