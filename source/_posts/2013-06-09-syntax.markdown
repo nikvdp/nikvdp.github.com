@@ -1,0 +1,35 @@
+---
+layout: post
+title: "syntax"
+date: 2013-06-09 18:56
+comments: true
+categories: 
+---
+
+Theoretically syntax highlighting in this is magical:
+
+``` python
+print "Hello there"
+if a is not b:
+    print "a isn't it"
+```
+
+Weird program
+
+
+``` 
+console.log("If this is as smart as it says");
+console.log("It should be able to figure out this is javascript");
+``` 
+
+```
+console.log "coffee"
+```
+
+``` 
+if [[ $a == 1 ]]; then
+    echo $a
+fi
+```   
+
+    
